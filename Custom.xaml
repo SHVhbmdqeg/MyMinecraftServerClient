@@ -1,18 +1,18 @@
 ﻿
 <local:MyHint Text="欢迎使用JOj0's server client 1.0" Theme="blue" />
 
-<local:MyCard Title="下载更新客户端" Margin="0,5,10,10" CanSwap="True" IsSwapped="True">
+<local:MyCard Title="下载更新模组包" Margin="0,5,10,10" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="20,30,10,20">
-		<TextBlock FontSize="14" TextWrapping="Wrap" Text="如进入服务器时提示模组版本问题可点击这里更新客户端。&#xA;如果自己调过键位的，需要备份[.minecraft\versions\1.20.1-Forge-for-JOj0's server/options.txt]。 "/>
-		<local:MyButton Grid.Column="0" Margin="0,5,10,0" Height="35" Text="点击查看更新" ToolTip="若最新版本与当前版本相同则无需更新" EventType="打开网页" EventData="https://pan.quark.cn/s/bafa4f53a876?pwd=v9fc" />
+		<TextBlock FontSize="14" TextWrapping="Wrap" Text="如进入服务器时提示模组版本问题可点击这里更新模组包。&#xA;即更换整个[mods]文件夹 "/>
+		<local:MyButton Grid.Column="0" Margin="0,5,10,0" Height="35" Text="点击查看更新" ToolTip="前往网页下载" EventType="打开网页" EventData="https://shv-mcserverclient.pages.dev/downloadclient.html" />
 	</StackPanel>
 </local:MyCard>
 
 <TextBlock FontSize="16" TextWrapping="Wrap" Text="服务器模组：TaCZ永恒枪械工坊、SBW卓越前线、Create机械动力、简单飞机、传送石碑。" />
-<TextBlock FontSize="14" Foreground="#FF603099" Text="温馨提示：模组较多，对键位不清楚的可以点下方“按键绑定查询”按钮" />
+<TextBlock FontSize="14" Foreground="#FF603099" Text="温馨提示：模组较多，对键位和服务器指令不清楚的可以点下方“游玩指南”按钮" />
 <TextBlock FontSize="14" Foreground="#FF993000" Text="主机服务器不能满足24小时运行，请加入Q群催群主开服。" />
 
-<local:MyButton Margin="0,5,10,0" Height="35" ColorType="Highlight" Text="按键绑定查询" ToolTip="点击大开整合包指南" EventType="打开网页" EventData="/" />
+<local:MyButton Margin="0,5,10,0" Height="35" ColorType="Highlight" Text="游玩指南" ToolTip="点击了解服务器指令和必要键位" EventType="打开网页" EventData="https://shv-mcserverclient.pages.dev/help.html" />
 
 <local:MyButton Margin="0,5,10,0" Height="35" ColorType="Highlight" Text="加入Q群" ToolTip="点击链接加入群聊【JOj0服务器】" EventType="打开网页" EventData="https://qm.qq.com/q/YW4Z8aseIw" />
 
