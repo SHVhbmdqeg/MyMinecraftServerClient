@@ -5,9 +5,10 @@
 <TextBlock FontSize="16" TextWrapping="Wrap" Text="暂定IP:&#xA;    57c42474b0ea.ofalias.net:58858" />
 </local:MyHint>
 
-<TextBlock FontSize="12" Text="2026.6.26 21:00" Foreground="#FF0000FF" HorizontalAlignment="Right" Margin="0,-15,5,0" />
+<TextBlock FontSize="12" Text="修改时间：2026.6.26 22:00" Foreground="#FF0000FF" HorizontalAlignment="Right" Margin="0,-15,5,0" />
 
-<local:MyButton Margin="100,-50,0,0" Width="120" Height="32" Text="进入服务器" ColorType="red" EventType="启动游戏" EventData="1.20.1-Forge-for-JOj0's server|57c42474b0ea.ofalias.net:58858" ToolTip="启动游戏并加入服务器" />
+<local:MyButton Margin="-150,-90,0,0" Width="120" Height="32" Text="进入服务器" ColorType="red" EventType="启动游戏" EventData="1.20.1-Forge-for-JOj0's server|57c42474b0ea.ofalias.net:58858" ToolTip="启动游戏并加入服务器" />
+<local:MyButton Margin="120,-90,0,0" Width="120" Height="32" ColorType="Red" Text="复制服务器IP" EventType="复制文本" EventData="57c42474b0ea.ofalias.net:58858" ToolTip="进入游戏->多人游戏->添加服务器->输入服务器ip" />
 
 <local:MyCard Title="下载更新模组包" Margin="0,5,10,10" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="20,30,10,20">
@@ -17,8 +18,8 @@
 </local:MyCard>
 
 <TextBlock FontSize="16" TextWrapping="Wrap" Text="服务器模组：TaCZ永恒枪械工坊、SBW卓越前线、Create机械动力、简单飞机、传送石碑。" />
-<TextBlock FontSize="14" Foreground="#FF603099" Text="温馨提示：模组较多，对键位和服务器指令不清楚的可以点下方“游玩指南”按钮" />
-<TextBlock FontSize="14" Foreground="#FF993000" Text="主机服务器不能满足24小时运行，请加入Q群催群主开服。" />
+<TextBlock FontSize="14" Foreground="#FF603099" TextWrapping="Wrap" Text="温馨提示：模组较多，对键位和服务器指令不清楚的可以点下方“游玩指南”按钮" />
+<TextBlock FontSize="14" Foreground="#FF993000" TextWrapping="Wrap" Text="主机服务器不能满足24小时运行，请加入Q群催群主开服。" />
 
 <local:MyButton Margin="0,5,10,0" Height="35" ColorType="Highlight" Text="游玩指南" ToolTip="点击了解服务器指令和必要键位" EventType="打开网页" EventData="https://shv-mcserverclient.pages.dev/help.html" />
 
@@ -34,7 +35,7 @@
 		</local:CustomEventCollection>
 	</local:CustomEventService.Events>
 </local:MyIconTextButton>
-<local:MyIconTextButton HorizontalAlignment="Center" Margin="0,0,0,0" Logo="M146.5344 706.798933a34.133333 34.133333 0 0 1 0-48.264533l341.333333-341.333333a34.133333 34.133333 0 0 1 48.264534 0l341.333333 341.333333a34.133333 34.133333 0 0 1-48.264533 48.264533L512 389.597867l-317.201067 317.201066a34.133333 34.133333 0 0 1-48.264533 0z"
+<local:MyIconTextButton HorizontalAlignment="Center" Margin="0,0,0,0" ColorType="Highlight" Logo="M146.5344 706.798933a34.133333 34.133333 0 0 1 0-48.264533l341.333333-341.333333a34.133333 34.133333 0 0 1 48.264534 0l341.333333 341.333333a34.133333 34.133333 0 0 1-48.264533 48.264533L512 389.597867l-317.201067 317.201066a34.133333 34.133333 0 0 1-48.264533 0z"
    	Text="点击收起图片" Visibility="{variable:qrcode:Collapsed}">
 	<local:CustomEventService.Events>
 		<local:CustomEventCollection>
@@ -45,7 +46,7 @@
 	</local:CustomEventService.Events>
 </local:MyIconTextButton>
 
-<TextBlock FontSize="12" Margin="360,-30,0,0" Foreground="#FF666666" Text="点击“赞助作者”可以刷新主页 哦~" />
+<TextBlock FontSize="12" Margin="320,-30,0,0" HorizontalAlignment="Center" TextWrapping="Wrap" Foreground="#FF666666" Text="点击“赞助作者”可以刷新主页 哦~" />
 <TextBlock FontSize="12" Text="made by JOj0132" HorizontalAlignment="Right" />
 
 <Path Margin="0,4,0,0" Width="217" Height="217" HorizontalAlignment="Center" Visibility="{variable:qrcode:Collapsed}" Stretch="Uniform" Fill="{DynamicResource ColorBrush1}"
