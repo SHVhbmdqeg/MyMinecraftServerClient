@@ -2,7 +2,7 @@
 <local:MyHint Text="欢迎使用JOj0's server client 1.0" Theme="blue" />
 
 <local:MyHint Text="服务器公告&#xA;" Theme="yellow">
-<TextBlock FontSize="16" TextWrapping="Wrap" Text="今日服务器测试IP:&#xA;    12.tcp.cpolar.top:11030" />
+<TextBlock FontSize="16" TextWrapping="Wrap" Text="今日服务器测试IP:&#xA;    12.tcp.cpolar.top:11030（延迟过高，已关停）" />
 </local:MyHint>
 
 <TextBlock FontSize="12" Text="2026.6.26" Foreground="#FF0000FF" HorizontalAlignment="Right" Margin="0,-15,5,0" />
