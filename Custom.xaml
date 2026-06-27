@@ -2,13 +2,13 @@
 <local:MyHint Text="欢迎使用JOj0's server client 1.0" Theme="blue" />
 
 <local:MyHint Text="服务器公告&#xA;" Theme="yellow">
-<TextBlock FontSize="16" TextWrapping="Wrap" Text="暂定IP:&#xA;    57c42474b0ea.ofalias.net:58858 &#xA;当前服务器正在睡觉预计明天下午开放" />
+<TextBlock FontSize="16" TextWrapping="Wrap" Text="暂定IP:&#xA;    57c42474b0ea.ofalias.net:58858&#xA;    服务器状态：开放中……" />
 </local:MyHint>
 
-<TextBlock FontSize="12" Text="修改时间：2026.6.26 23:50" Foreground="#FF0000FF" HorizontalAlignment="Right" Margin="0,-15,5,0" />
+<TextBlock FontSize="12" Text="修改时间：2026.6.27 15:40" Foreground="#FF0000FF" HorizontalAlignment="Right" Margin="0,-15,5,0" />
 
-<local:MyButton Margin="-150,-90,0,0" Width="120" Height="32" Text="进入服务器" ColorType="red" EventType="启动游戏" EventData="1.20.1-Forge-for-JOj0's server|57c42474b0ea.ofalias.net:58858" ToolTip="启动游戏并加入服务器" />
-<local:MyButton Margin="120,-90,0,0" Width="120" Height="32" ColorType="Red" Text="复制服务器IP" EventType="复制文本" EventData="57c42474b0ea.ofalias.net:58858" ToolTip="进入游戏->多人游戏->添加服务器->输入服务器ip" />
+<local:MyButton Margin="-150,-120,0,0" Width="120" Height="32" Text="进入服务器" ColorType="red" EventType="启动游戏" EventData="1.20.1-Forge-for-JOj0's server|57c42474b0ea.ofalias.net:58858" ToolTip="启动游戏并加入服务器" />
+<local:MyButton Margin="120,-120,0,0" Width="120" Height="32" ColorType="Red" Text="复制服务器IP" EventType="复制文本" EventData="57c42474b0ea.ofalias.net:58858" ToolTip="进入游戏->多人游戏->添加服务器->输入服务器ip" />
 
 <local:MyCard Title="下载更新模组包" Margin="0,5,10,10" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="20,30,10,20">
