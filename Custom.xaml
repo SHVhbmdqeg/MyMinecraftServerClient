@@ -5,7 +5,7 @@
 <TextBlock FontSize="16" TextWrapping="Wrap" Text="暂定IP:&#xA;    57c42474b0ea.ofalias.net:58858&#xA;    服务器状态：开放中……" />
 </local:MyHint>
 
-<TextBlock FontSize="12" Text="修改时间：2026.6.27 15:40" Foreground="#FF0000FF" HorizontalAlignment="Right" Margin="0,-15,5,0" />
+<TextBlock FontSize="12" Text="修改时间：2026.6.27 16：00" Foreground="#FF0000FF" HorizontalAlignment="Right" Margin="0,-15,5,0" />
 
 <local:MyButton Margin="-150,-120,0,0" Width="120" Height="32" Text="进入服务器" ColorType="red" EventType="启动游戏" EventData="1.20.1-Forge-for-JOj0's server|57c42474b0ea.ofalias.net:58858" ToolTip="启动游戏并加入服务器" />
 <local:MyButton Margin="120,-120,0,0" Width="120" Height="32" ColorType="Red" Text="复制服务器IP" EventType="复制文本" EventData="57c42474b0ea.ofalias.net:58858" ToolTip="进入游戏->多人游戏->添加服务器->输入服务器ip" />
@@ -17,7 +17,7 @@
 	</StackPanel>
 </local:MyCard>
 
-<TextBlock FontSize="16" TextWrapping="Wrap" Text="服务器模组：TaCZ永恒枪械工坊、SBW卓越前线、Create机械动力、简单飞机、传送石碑。" />
+<TextBlock FontSize="16" TextWrapping="Wrap" Text="服务器模组：TaCZ永恒枪械工坊、Create机械动力、简单飞机、传送石碑、语音聊天、连锁采集。" />
 <TextBlock FontSize="14" Foreground="#FF603099" TextWrapping="Wrap" Text="温馨提示：模组较多，对键位和服务器指令不清楚的可以点下方“游玩指南”按钮" />
 <TextBlock FontSize="14" Foreground="#FF993000" TextWrapping="Wrap" Text="主机服务器不能满足24小时运行，请加入Q群催群主开服。" />
 
