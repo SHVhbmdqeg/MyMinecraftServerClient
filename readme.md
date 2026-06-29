@@ -1,0 +1,1 @@
+https://shv-mcserverclient.pages.dev/
